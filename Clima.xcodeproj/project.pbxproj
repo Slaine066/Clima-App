@@ -16,6 +16,8 @@
 		D8638B19240D1AC8009A1232 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8638B18240D1AC8009A1232 /* WeatherModel.swift */; };
 		D8A729BB23ACC16800BC11B0 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A729BA23ACC16800BC11B0 /* WeatherManager.swift */; };
 		D8A729BD23AD09D400BC11B0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A729BC23AD09D400BC11B0 /* WeatherData.swift */; };
+		D8D7C90224598DFD00F0E9AC /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D7C90124598DFD00F0E9AC /* Screenshot.png */; };
+		D8D7C90424598E0D00F0E9AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D8D7C90324598E0D00F0E9AC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D8638B18240D1AC8009A1232 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Clima/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 		D8A729BA23ACC16800BC11B0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		D8A729BC23AD09D400BC11B0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		D8D7C90124598DFD00F0E9AC /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		D8D7C90324598E0D00F0E9AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		ADAA27A4231BBFAF00365194 = {
 			isa = PBXGroup;
 			children = (
+				D8D7C90324598E0D00F0E9AC /* README.md */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
 				ADAA27AE231BBFAF00365194 /* Products */,
 			);
@@ -104,6 +109,7 @@
 		D8D7C8FC2459897700F0E9AC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D8D7C90124598DFD00F0E9AC /* Screenshot.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -168,7 +174,9 @@
 			files = (
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
+				D8D7C90424598E0D00F0E9AC /* README.md in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
+				D8D7C90224598DFD00F0E9AC /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
